@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="lak">
+        <div class="kana">
+            <form>
+                <fieldset>
+                    <br>
+                    <h2>Login in</h2>
+                    <label  for="email">Email:</label><br>
+                    <input  type="text" id="email" name="email" placeholder="Eg:vicky@gmail.com" autofocus required><br>
+                    <label  for="password">Password</label><br>
+                    <input  type="password" id="password" name="password"placeholder="Enter your password" pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" required><br>
+                    <button class="block">Login</button>
+                    <p>Do you have an account? <a href="#">Sign Up</a></p><br><br>
+                </fieldset>
+            </form> 
+        </div>
+    </div>
+</body>
+</html>
